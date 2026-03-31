@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+:root {
+    --fuentePrincipal: 'Montserrat', sans-serif;
+    --fuenteSecundaria: 'Playfair Display', serif;
+    --colorPrimario: #A91E22;
+    --colorSecundario: #E6A817;
+    --colorAcentoClaro: #2F6B3B;
+    --colorAcentoOscuro: #6B3E2E;
+    --colorNeutroClaro: #F5E9D8;
+    --colorNeutroGris: #E5E1DC;
+    --colorBlanco: #FFF;
+}
+
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--fuentePrincipal);
+    background-color: var(--colorNeutroClaro);
+}
